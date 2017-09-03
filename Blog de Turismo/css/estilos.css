@@ -1,0 +1,36 @@
+body{
+  background-image: url('../img/fondo.png');
+  background-repeat: no-repeat;
+}
+
+header{
+  z-index: 100;
+}
+
+#contenedor{
+  background: white;
+  margin: 5px 5px 5px 5px;
+  padding: 20px 20px 20px 20px;
+}
+
+#logo{
+  position: relative;
+  top: 30px;
+  left: 70px;
+}
+
+#navegador{
+  background: none !important;
+  box-shadow: none !important;
+  position: absolute;
+  left: 400px;
+  bottom: 550px;
+}
+
+#slogan{
+  position: absolute;
+  left: 400px;
+  bottom: 480px;
+  background-color: white;
+  padding: 10px;
+}

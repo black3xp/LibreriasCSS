@@ -34,3 +34,53 @@ header{
   background-color: white;
   padding: 10px;
 }
+
+#sociales{
+  position: fixed;
+  left: 0;
+  background-color: grey;
+}
+
+#icons{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+}
+
+img{
+  margin: 5px 5px 5px 5px;
+}
+
+article{
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+}
+
+
+#autor-img{
+  margin: 10px 10% 10px 10%;
+}
+
+input{
+  color: white !important;
+}
+
+#label{color: white !important}
+
+@media only screen and (max-width: 500px) {
+    #big-img{width: 100%;   }
+    #letras-btn{display: none;}
+
+    #navegador{
+      position: absolute;
+      left: 80px;
+      top: 8px;
+    }
+
+    #slogan{
+      position: absolute;
+      left: 70px;
+      top: 150px;
+      z-index: 1000;
+    }
+}
